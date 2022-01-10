@@ -1,0 +1,9 @@
+service: nodeless
+
+provider:
+  name: aws
+  runtime: nodejs14.15.0
+
+functions:
+  hello:
+    handler: handler.hello
