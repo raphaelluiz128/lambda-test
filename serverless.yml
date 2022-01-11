@@ -42,10 +42,10 @@ functions:
           path: /
           method: get
           cors: true
-    vpc:
-      securityGroupIds:
+      vpc:
+        securityGroupIds:
         - sg-0b5eca52456130474
-      subnetIds:
+        subnetIds:
         - subnet-3bcb6c60
         - subnet-e557a5ac
         - subnet-9334edf5
