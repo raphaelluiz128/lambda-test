@@ -29,6 +29,8 @@ provider:
   iamRoleStatements:
     - Effect: "Allow"
       Action:
+        - iam:CreateRole
+        - iam:PutRolePolicy
         - ec2:CreateNetworkInterface
         - ec2:DescribeNetworkInterfaces
         - ec2:DeleteNetworkInterface

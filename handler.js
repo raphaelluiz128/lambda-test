@@ -8,7 +8,7 @@
             host: "database-1.cpz8klkkh2jk.sa-east-1.rds.amazonaws.com",
             user: "admin",
             password: "12341234",
-            database: "customers"
+            database: "teste-lambdas"
           });
           const p = new Promise((resolve) => {
             connnection.query("select * from customers", 

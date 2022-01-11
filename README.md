@@ -1,7 +1,8 @@
 # lambda-test
 
 #command to add credentials 
-serverless config credentials -o --provider aws --key AKIA6MRIO3HCQ2MQP7GS --secret 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
+serverless config credentials -o --provider aws --key AKIA6MRIO3HCR6YIF34K --secret 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
+
 
 # database
 
